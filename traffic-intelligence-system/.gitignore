@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+dist/
+datasets/raw_videos/*
+datasets/processed_videos/*
+datasets/images/*
+!datasets/**/.gitkeep
+models/*.pt
+pgdata/
+.venv/
+
+# model weights downloaded automatically by ultralytics
+*.pt
